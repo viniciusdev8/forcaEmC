@@ -1,5 +1,5 @@
 # Jogo da Forca desenvolvido em C
-Fiz este minigame bobo só pra trabalhar mais com vetores e funções simples.<br>
+Fiz este minigame bobo só pra trabalhar mais com vetores e funções.<br>
 
 Um simples jogo da forca desenvolvido em linguagem C para terminal/console. O objetivo é adivinhar a palavra secreta antes que o número máximo de tentativas acabe.
 
