@@ -34,7 +34,7 @@ void jogo() {
         int acerto=0, encontrado=0;
 
         printf("[CARACTERES UTILIZADOS]:"); 
-        for(i=0; i < j; i++) {
+        for(i=0; i<j; i++) {
             printf(" %c", informados[i]);
         }
         printf("\n\n");
@@ -75,9 +75,9 @@ void jogo() {
     }
 
     if (tentativas>0) {
-        printf("\nParabéns! Você venceu com %d/10 tentativas!\n\n", tentativas);
+        printf("\nParabÃ©ns! VocÃª venceu com %d/10 tentativas!\n\n", tentativas);
     } else {
-        printf("Que pena, você perdeu!\n");
+        printf("Que pena, vocÃª perdeu!\n");
         printf("A palavra era:");
         for(i=0; i<tamanho; i++) {
             printf(" %c", palavra[i]);
@@ -108,7 +108,7 @@ int jogar() {
                 jogo();
                 break;
             case '2':
-                printf("Um jogador deve digitar uma palavra secreta, e o outro terá até 10 tentativas para adivinhá-la!\n\n");
+                printf("Um jogador deve digitar uma palavra secreta, e o outro terÃ¡ atÃ© 10 tentativas para adivinhÃ¡-la!\n\n");
                 printf("Pressione qualquer tecla para continuar...\n");
                 getch();
                 break;
